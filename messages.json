@@ -1,0 +1,71 @@
+{
+    "socialLinks": [
+        {
+            "href": "https://twitter.com/Luke_B_Taylor",
+            "iconName": "twitter"
+        }
+    ],
+    "footerFootnote": "Luke's Tech Radar. Thanks to <a href=\"https://www.aoe.com/techradar/index.html\">AOE</a> for the wonderful template.",
+    "legalInformationLink": "#",
+    "pageHelp": {
+        "paragraphs": [
+            {
+                "headline": "Introduction",
+                "values": [
+                    "Tracking technical prospects is a critical task",
+                    "Sharing those tools and making them visible is a part of being in a devleopment community.",
+                    "By ensuring technology choices are visible, a dicsussion is now possible, making smart, informed choices about technology outside of an echo chamber achievable."
+                ]
+            },
+            {
+                "headline": "What is a Technology Radar",
+                "values": [
+                    "A Tech Radar is an at-a-glance view of different technologies to be considered",
+                    "Notes on tools, languages, frameworks, methodologies, and platforms are associated with each item.",
+                    "When the degree of adoption of a technology changes, it will show up on the radar.",
+                    "A radar is not an \"approved list\" of technologies, but instead it is a playground for discusing what is next."
+                ]
+            }
+        ],
+        "quadrants": [
+            {
+                "name": "Languages and Frameworks",
+                "description": "Development langages (e.g. F#) and frameworks (e.g. Angular) show up here. Internal frameworks may also appear here."
+            },
+            {
+                "name": "Tools",
+                "description": "CLI tooling (e.g. nerdctl) and desktop apps (e.g. Postman) show up here."
+            },
+            {
+                "name": "Techniques",
+                "description": "Patterns, approaches, and best practices go here. Things such as Agile, Decorator Pattern, or Architecural Decision Records are examples."
+            },
+            {
+                "name": "Platforms such as Azure or Confluent go here."
+            }
+        ],
+        "rings": [
+            {
+                "name": "Adopt",
+                "description": "This technology is actively being used in production today. It has a history of stability and good perfomance. New projects should consider using these technologies."
+            },
+            {
+                "name": "Trial",
+                "description": "This technology looks hopeful. It may have been used in some PoC work and is looking for further assessment in a low-impact production project."
+            },
+            {
+                "name": "Assess",
+                "description": "This technology looks interesting. It may have been seen on a blog or being used by another company. We want to try it out in some minor dev work and see if it may be worth using in a PoC."
+            },
+            {
+                "name": "Hold",
+                "description": "Don't use these technologies. They aren't necessarily bad, but they may be immature, unmaintained, or simply do not align with a larger technology vision or stack. Do not use them in new projects. Consider removing them from legacy project."
+            }
+        ],
+        "sourcecodeLink": {
+            "href": "https://github.com/lukebtaylor/tech-radar.lukebtaylor.com.public",
+            "name": "Luke's Tech Radar on Github",
+            "description": "Public repo of Luke's Tech Radar are on GitHub"
+        }
+    }
+}
