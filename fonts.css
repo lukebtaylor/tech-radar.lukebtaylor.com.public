@@ -9,3 +9,7 @@
     src: url("fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
     font-weight: 300;
 }
+
+.chart .tooltip::before {
+    height: auto !important;
+}
